@@ -1,0 +1,32 @@
+.highlight p {
+    background-color: yellow; /* правило */
+}
+
+h1 { color: darkviolet; } /*тег*/
+
+.section {
+    color: blue;   /*класс*/
+}
+
+#content {
+    color: brown; /*id*/
+}
+
+a[href*="page"] {
+    color: green;  /*атрибут*/
+}
+
+.container p { color: purple; }   /*вложенные селекторы*/
+
+
+
+.wrapper > span {
+    color: darkgrey; /*дочерние селекторы*/
+}
+
+
+h2, #main-title {
+    color: orange; /*последовательные селекторы*/
+}
+
+div.highlighted p.special { color: pink; } /*комбинации селекторов*/
